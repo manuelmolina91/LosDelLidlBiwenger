@@ -1,0 +1,43 @@
+# -----------------------------
+# Node.js
+# -----------------------------
+node_modules/
+npm-debug.log*
+
+# Mantén el package-lock.json para asegurar consistencia en dependencias
+# (¡muy recomendado si usas npm!)
+# Si no quieres versionarlo, descomenta la siguiente línea:
+# package-lock.json
+
+# -----------------------------
+# Build / Dist
+# -----------------------------
+dist/
+build/
+out/
+.cache/
+coverage/
+
+# -----------------------------
+# Firebase
+# -----------------------------
+.firebase/
+.firebase-tools.json
+.firebaserc
+# ⚠️ Nunca subas claves privadas
+serviceAccountKey.json
+
+# -----------------------------
+# IDEs / OS
+# -----------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Environment variables
+# -----------------------------
+.env
+.env.local
+.env.*.local
